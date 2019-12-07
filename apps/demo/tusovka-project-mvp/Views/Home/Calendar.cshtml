@@ -3,7 +3,7 @@
     var currentDay = DateTime.Today;
     var daysToGo = Enumerable.Range(0, 7).Select(i => currentDay.AddDays(i)).ToArray();
 
-    var calendar = CultureInfo.CurrentCulture.Calendar;
+    var calendar = CultureInfo.GetCultureInfo("ru-RU").Calendar;
 }
 
 <div class="ui relaxed divided list">
