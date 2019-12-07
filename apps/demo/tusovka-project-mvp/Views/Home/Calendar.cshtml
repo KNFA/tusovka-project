@@ -15,7 +15,7 @@
     <div>
         <h2 class="ui dividing header">
             <i class="calendar alternate outline icon"></i>
-            @day.ToString("D", cultureInfo) (@day.ToString("dddd", cultureInfo))
+            @day.ToString("d MMMM yyyy", cultureInfo) (@day.ToString("dddd", cultureInfo))
         </h2>
         @if (dayOfWeek == DayOfWeek.Saturday || dayOfWeek == DayOfWeek.Sunday)
         {
