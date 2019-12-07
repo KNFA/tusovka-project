@@ -1,0 +1,29 @@
+﻿@using System.Globalization
+@{
+    var currentDay = DateTime.Today;
+    var daysToGo = Enumerable.Range(0, 7).Select(i => currentDay.AddDays(i)).ToArray();
+
+    var calendar = CultureInfo.CurrentCulture.Calendar;
+}
+
+<div class="ui relaxed divided list">
+    @foreach (var day in daysToGo)
+    {
+        var dayOfWeek = calendar.GetDayOfWeek(day);
+
+        <div>
+            <h2 class="ui dividing header">
+                <i class="calendar alternate outline icon"></i>
+                @day.ToString("D") (@day.ToString("dddd"))
+            </h2>
+            @if (dayOfWeek == DayOfWeek.Saturday || dayOfWeek == DayOfWeek.Sunday)
+            {
+                <a href="@Url.Action("Event", "Home")">Тусим у Серёги</a>
+            }
+            else
+            {
+                <p>Никаких тусовок не запланировано</p>
+            }
+        </div>
+    }
+</div>

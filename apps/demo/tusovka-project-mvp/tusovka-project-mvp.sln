@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tusovka-project-mvp", "tusovka-project-mvp.csproj", "{65021556-232B-48C6-9108-8F485259ECA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65021556-232B-48C6-9108-8F485259ECA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65021556-232B-48C6-9108-8F485259ECA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65021556-232B-48C6-9108-8F485259ECA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65021556-232B-48C6-9108-8F485259ECA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5ACDD34-B10B-493D-B615-664E128544CE}
+	EndGlobalSection
+EndGlobal

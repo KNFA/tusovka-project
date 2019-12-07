@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tusovka Project</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya|Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <div class="ui fixed menu">
+        <div class="ui container">
+            <a href="@Url.Action("Index", "Home")" class="header item">
+                <img class="logo" src="assets/images/logo.png">
+                Tusovka
+            </a>
+
+            <a href="@Url.Action("Calendar", "Home")" class="item menu-item">
+                Календарь
+            </a>
+
+            <a href="#" class="right floated item avatar-font">
+                <i class="user circle icon"></i>
+                Витька
+            </a>
+        </div>
+    </div>
+
+    <div class="ui main text container">
+        @RenderBody()
+    </div>
+</body>
+</html>

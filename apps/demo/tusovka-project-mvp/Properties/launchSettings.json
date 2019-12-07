@@ -1,0 +1,12 @@
+﻿{
+  "profiles": {
+    "tusovka-project-mvp": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "applicationUrl": "http://192.168.5.2:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

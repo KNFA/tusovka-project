@@ -1,0 +1,61 @@
+﻿<h2>Тусим у Серёги</h2>
+
+<p>Завтра мне не на работу, можно хоть до утра сидеть</p>
+
+<div class="ui list">
+    <div id="location" class="item">
+        <i class="map marker icon"></i>
+        <div class="content">
+            <a class="header">Хата Серёги</a>
+            <div class="description">...</div>
+        </div>
+    </div>
+
+    <div class="item">
+        <i class="user icon"></i>
+        <div class="content">
+            <a class="header">Тоха</a>
+            <div class="description">Последний раз мандел 5 минут назад.</div>
+        </div>
+    </div>
+    <div class="item">
+        <i class="user icon"></i>
+        <div class="content">
+            <a class="header">Лёха</a>
+            <div class="description">Картоха</div>
+        </div>
+    </div>
+    <div class="item">
+        <i class="user icon"></i>
+        <div class="content">
+            <a class="header">Витька</a>
+            <div class="description">Сегодня пьёт.</div>
+        </div>
+    </div>
+    <div class="item">
+        <i class="user icon"></i>
+        <div class="content">
+            <a class="header">Хвошинка</a>
+            <div class="description">Наяривал 3 дня назад.</div>
+        </div>
+    </div>
+</div>
+
+<div id="location-popup" class="ui custom popup transition hidden">
+    <p>Ехать вот сюда</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2644.5554788079185!2d135.0746175737965!3d48.484239503819126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5efaea630100d39b%3A0x7450eecdbe1c52e3!2z0JjQvdC00LjQstC40LTRg9Cw0LvRjNC90YvQuSDQv9GA0LXQtNC_0YDQuNC90LjQvNCw0YLQtdC70Ywg0KjQtdC70LrQvtCy0L3QuNC60L7QsiDQk9C70LXQsSDQkdC-0YDQuNGB0L7QstC40Yc!5e0!3m2!1sru!2sru!4v1575709855374!5m2!1sru!2sru" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+</div>
+
+<script>
+    $('#location')
+        .popup({
+            popup: $('#location-popup'),
+            inline: true,
+            hoverable: true,
+            position: 'top right',
+            delay: {
+                show: 300,
+                hide: 800
+            }
+        });
+</script>

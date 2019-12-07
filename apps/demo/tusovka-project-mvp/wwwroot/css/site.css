@@ -1,0 +1,48 @@
+﻿* {
+    font-family: 'Alegreya', serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+.main.container {
+    margin-top: 7em;
+}
+
+.header {
+    font-family: 'Roboto Slab', serif !important;
+}
+
+.dividing {
+    position: relative;
+    margin: 5rem 0rem 1rem !important;
+}
+
+.menu-item {
+    font-family: 'Roboto Slab', serif !important;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif !important;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif !important;
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif !important;
+}
+
+h4 {
+    font-family: 'Roboto Slab', serif !important;
+}
+
+h5 {
+    font-family: 'Roboto Slab', serif !important;
+}
+
+.avatar-font {
+    font-family: 'Roboto Slab', serif;
+}
